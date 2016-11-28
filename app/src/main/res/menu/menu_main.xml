@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ss_baez.petagram.MainActivity" >
+
+
+    <item android:id="@+id/showLikes"
+        android:icon="@drawable/ic_action_likes"
+        android:title="@string/showLikes"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/showInfo"
+        android:orderInCategory="100"
+        android:title="@string/showInfo"
+        app:showAsAction="never"/>
+</menu>
